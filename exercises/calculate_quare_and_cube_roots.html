@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html data-require="math math-format">
+<head>
+	<title>Calculate Square and Cube Roots</title>
+	<script src="../khan-exercise.js"></script>
+</head>
+<body>
+    <div class="exercise">
+        <div class="vars">
+	    <var id="R">randRange(1,12)</var>
+	</div>
+	<div class="problems">
+	    <div class="problem">
+	        <p class="question">
+		    <p>What is the square root of <code><var>R*R</var></code>.</p>
+ 		    <p>In other words calculate <code>\sqrt{<var>R*R</var>}</code></p>
+		    <div class="solution" data-type="multiple">
+		        <p><span class="sol" data-type="rational"><var>R</var></span></p>
+		    </div>
+  		    <div class="hints">
+		        <p>The square root <code>x</code> of <code><var>R*R</var></code> is number such that <code>x^2=<var>R*R</var></code>.</p>
+		        <p>Since <code><var>R</var>^2 = <var>R</var>\cdot<var>R</var> = <var>R*R</var></code>, 
+			   the square root is <code><var>R</var></code>.</p>
+		    </div>
+		</p>
+	    </div>		    
+	    <div class="problem">
+	        <p class="question">
+		    <p>What is the cube root of <code><var>R*R*R</var></code>.</p>
+ 		    <p>In other words calculate <code>\sqrt[3]{<var>R*R*R</var>}</code></p>
+		    <div class="solution" data-type="multiple">
+		        <p><span class="sol" data-type="rational"><var>R</var></span></p>
+		    </div>
+  		    <div class="hints">
+		        <p>The cube root <code>x</code> of <code><var>R*R*R</var></code> is number such that <code>x^3=<var>R*R*R</var></code>.</p>
+		        <p>Since <code><var>R</var>^3 = <var>R</var>\cdot<var>R</var>\cdot<var>R</var> = <var>R*R*R</var></code>, 
+			   the cube root is <code><var>R</var></code>.</p>
+		    </div>
+		</p>		    
+	    </div>
+	</div>
+    </div>
+</body>
+</html>
